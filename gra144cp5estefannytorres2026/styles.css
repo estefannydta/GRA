@@ -30,6 +30,9 @@ h1 {
     padding: 20px;
     margin: 0;
     background-image: url(url);
+    font-family: "Oi", serif;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 h2 {
     padding: 20px;
@@ -52,4 +55,38 @@ nav {
     background-position: center center;
 }
 #store {
+    background-image: url(HarryStylesbyTylerMitchellVogueUSDec2020(4)SM
+.jpg);
+}
+#blog {
+    background-image: url(what-we-learned-from-harry-new-album-2017-d1f2ae97-acae-469c-87ef-bec5eb8b9a69.jpg);
+}
+#email {
+    background-image: url(harry-styles.jpg);
+}
+#gallery {
+    background-image: url(23billboard-item-articleLarge.jpg);
+}
+#videos {
+    background-image: url(0_Harry-Styles-in-concert-Together-Together-tour-Madison-Square-Garden-New-York-USA-26-Aug-20.jpg);
+    padding-top: 119px;
+    padding-left: 49px;
+}
+#tour {
+    background-image: url(Static_LN-Newsroom_1350x1000_EagleDragon_2026_Generic.jpg);
+    background-position: 0% center;
+}
+#merch {
+    background-image: url(images%20merch.jpeg);
+}
+.logo {
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+}
+header {
+    padding: 10px;
+}
+h1 {
+    display: inline;
 }

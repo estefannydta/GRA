@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Torretravel | Estefanny Torres, 2026</title>
+<style type="text/css">
+body {
+    margin: 0;
+    background-image: url(place.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+header {
+    background-color: #A41111;
+    background-image: url(url);
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    height: 700px;
+    background-color: rgba(254,254,254,0.50);
+}
+.logo {
+    height: 100px;
+    width: auto;
+}
+#Tabs1 {
+    background-color: transparent;
+    border: none;
+    background-image: none;
+}
+#Tabs1 ul {
+    background-color: transparent;
+    border: none;
+    background-image: none;
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    background-color: rgba(255,255,255,0.50);
+}
+#tabs-1 p input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: auto;
+}
+</style>
+<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-3.7.1.min.js"></script>
+<script src="jQueryAssets/jquery-ui.min.js"></script>
+</head>
+
+<body>
+<header><img src="logo.PNG" alt="" width="1536" height="1024" class="logo"></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">Hotels</a></li>
+      <li><a href="#tabs-2">Flights</a></li>
+      <li><a href="#tabs-3">Cars</a></li>
+      <li><a href="#tabs-4">Activities</a></li>
+      <li><a href="#tabs-5">Cruises</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>
+      <form>
+      </form>
+<p>
+<input type="text" placeholder="Leaving from">
+        <input type="date">
+<input type="text" placeholder="Going to">
+      <input type="date" title="Dates"><input type="number" placeholder="Number of Travelers"></p>
+    </div>
+    <div id="tabs-2">
+      <p>Content 2</p>
+    </div>
+    <div id="tabs-3">
+      <p><form>
+        <input type="text" placeholder="Pick-up">
+        <input type="date">
+        <input type="time" title="Date">
+</form></p>
+    </div>
+    <div id="tabs-4">
+      <p>Content 4</p>
+    </div>
+    <div id="tabs-5">
+      <p>Content 5</p>
+    </div>
+  </div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
